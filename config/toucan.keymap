@@ -9,33 +9,26 @@
 #define ADJ  3
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        tri_layer {
-            if-layers = <2 3>;
-            then-layer = <1>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 
     combos {
         compatible = "zmk,combos";
 
         mgk {
             bindings = <&mgk>;
-            key-positions = <40 39 28>;
+            key-positions = <39 28 38>;
             timeout-ms = <100>;
         };
 
         work {
             bindings = <&work>;
-            key-positions = <40 39 15>;
+            key-positions = <39 15 38>;
             timeout-ms = <100>;
         };
 
         mem {
             bindings = <&personal>;
-            key-positions = <40 39 31>;
+            key-positions = <39 31 38>;
             timeout-ms = <100>;
         };
 
