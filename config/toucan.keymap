@@ -22,17 +22,17 @@
         compatible = "zmk,combos";
 
         NavTog {
-            bindings = <&tog 2>;
+            bindings = <&tog 1>;
             key-positions = <41 36>;
         };
 
         SymTog {
-            bindings = <&tog 0>;
+            bindings = <&tog 2>;
             key-positions = <41 37>;
         };
 
         NumTog {
-            bindings = <&tog 1>;
+            bindings = <&tog 3>;
             key-positions = <41 38>;
         };
 
