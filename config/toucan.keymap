@@ -82,14 +82,14 @@
         NUM {
             display-name = "num";
             bindings = <
-&work  &kp F1  &kp F2  &kp F3  &kp F4  &kp SPACE  &kp EQUAL  &kp N7  &kp N8  &kp N9  &none  &trans  &personal  &kp F5  &kp F6  &kp F7  &kp F8  &kp COMMA  &kp ASTRK  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp RS(LC(F5))  &trans  &mgk  &kp F9  &kp F10  &kp F11  &kp F12  &kp MINUS  &kp PLUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &trans  &trans  &kp N0  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp SPACE  &kp EQUAL  &kp N7  &kp N8  &kp N9  &none  &trans  &trans  &kp F5  &kp F6  &kp F7  &kp F8  &kp COMMA  &kp ASTRK  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp RS(LC(F5))  &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp MINUS  &kp PLUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &trans  &trans  &kp N0  &trans  &trans
             >;
         };
 
         sym {
             display-name = "SYM";
             bindings = <
-&trans  &kp GRAVE  &kp HASH  &kp AT  &kp EXCLAMATION  &kp APOS  &kp DOUBLE_QUOTES  &kp PERCENT  &kp DOLLAR  &kp AMPS  &kp ASTERISK  &trans  &trans  &kp UNDER  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp UP_ARROW  &kp DOWN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp MINUS  &trans  &trans  &kp SLASH  &kp PIPE  &kp MINUS  &kp PLUS  &kp LEFT  &kp RIGHT  &kp BACKSLASH  &kp CARET  &kp TILDE  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&personal  &kp GRAVE  &kp HASH  &kp AT  &kp EXCLAMATION  &kp APOS  &kp DOUBLE_QUOTES  &kp PERCENT  &kp DOLLAR  &kp AMPS  &kp ASTERISK  &trans  &work  &kp UNDER  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp UP_ARROW  &kp DOWN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp MINUS  &trans  &mgk  &kp SLASH  &kp PIPE  &kp MINUS  &kp PLUS  &kp LEFT  &kp RIGHT  &kp BACKSLASH  &kp CARET  &kp TILDE  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
